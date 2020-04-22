@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+void ucapan(){
+	cout<<"----Hello Word----"<<endl;
+	cout<<" --Elektromedik--";
+}
+int main(){
+	ucapan();
+}
