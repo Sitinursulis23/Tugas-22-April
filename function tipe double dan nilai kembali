@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+double Tambahan(double m, double mm){
+	double t;
+	t = m + mm;
+	return t;
+}
+int main(){
+	double a,b,hasil;
+	cout<<"Tambahan"<<endl;
+	cout<<"Masukan Nilai Pertama = ";
+	cin>>a;
+	cout<<"Masukan Nilai Kedua   = ";
+	cin>>b;
+	hasil = Tambahan(a,b);
+	cout<<"Hasilnya = "<<hasil<<endl;
+	
+	
+	return 0;
+}
