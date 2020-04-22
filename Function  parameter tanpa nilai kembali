@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int tambah (int m, int mm){
+	int t;
+	t = m  + mm;
+}
+int main(){
+	int a,b, Hasil;
+	cout<<"Tambahan"<<endl;
+	cout<<"Masukan Angka Pertama = ";
+	cin>>a;
+	cout<<"Masukan Angka Kedua   = ";
+	cin>>b;
+	Hasil = tambah(a,b);
+	cout<<"Hasilnya = "<<Hasil<<endl;
+}
+
